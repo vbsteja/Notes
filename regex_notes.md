@@ -1,4 +1,4 @@
-###Regex Notes
+### Regex Notes
 
 * grep -i "license" GPL-3  --> search for text containing word with case insensitive.
 
@@ -24,4 +24,4 @@
 ## Examples from regex101:
 
 * to find the text contains both letters and digits,special characters, useful for cipher text detection.
-   (?=\d*[a-zA-Z])(?=[a-zA-Z]*[\d+])[a-zA-Z\d]+
+   * (?=\d*[a-zA-Z])(?=[a-zA-Z]*[\d+])[a-zA-Z\d]+
