@@ -25,3 +25,7 @@
 
 * to find the text contains both letters and digits,special characters, useful for cipher text detection.
      * (?=\d*[a-zA-Z])(?=[a-zA-Z]*[\d+])[a-zA-Z\d]+
+     
+* to get the URL in an anchor tag. remeber to trim the trailing " in the result.
+    * (?<=\<a href=\").*?[\"]
+    
